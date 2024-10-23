@@ -1,38 +1,22 @@
-/* Estilos generales */
+/* public/css/styles.css */
+
+/* Estilo del cuerpo */
 body {
-    font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
 
-header {
+/* Estilo del header */
+.header {
     background-color: #0044cc;
     color: white;
     text-align: center;
     padding: 1rem;
 }
 
-header .nav ul {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    padding: 0;
-}
-
-header .nav ul li {
-    margin: 0 10px;
-}
-
-header .nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* Hero Section */
+/* Estilo de la sección hero */
 .hero {
     position: relative;
 }
@@ -53,7 +37,7 @@ header .nav ul li a {
     padding: 10px;
 }
 
-/* Info Section */
+/* Estilos para la sección de información */
 .info {
     padding: 2rem;
     text-align: center;
@@ -65,21 +49,7 @@ header .nav ul li a {
     margin-top: 20px;
 }
 
-.feature {
-    width: 30%;
-    text-align: center;
-}
-
-.feature i {
-    font-size: 3rem;
-    color: #0044cc;
-}
-
-.feature h3 {
-    margin-top: 10px;
-}
-
-/* Gallery Section */
+/* Estilo para la galería */
 .gallery {
     padding: 2rem;
     text-align: center;
@@ -96,7 +66,7 @@ header .nav ul li a {
     margin: 10px 0;
 }
 
-/* Contact Section */
+/* Estilo de contacto */
 .contact {
     background-color: #0044cc;
     color: white;
@@ -104,16 +74,7 @@ header .nav ul li a {
     text-align: center;
 }
 
-.contact ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.contact ul li {
-    margin: 10px 0;
-}
-
-/* Footer */
+/* Estilo del footer */
 footer {
     background-color: #333;
     color: white;
@@ -121,7 +82,7 @@ footer {
     padding: 1rem;
 }
 
-/* Media Queries */
+/* Media Queries para móviles */
 @media (max-width: 768px) {
     .features {
         flex-direction: column;
